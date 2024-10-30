@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Math Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🧠 Fun Math Game 🧠</h1>
+        <div id="game">
+            <p id="problem"></p>
+            <input type="number" id="answer" placeholder="Type your answer" autocomplete="off">
+            <button id="submit">Submit Answer</button>
+            <p id="result"></p>
+        </div>
+        <div class="info">
+            <p><span class="label">⏳ Time Left:</span> <span id="timer">60</span> seconds</p>
+            <p><span class="label">🏆 Score:</span> <span id="score">0</span></p>
+        </div>
+        <button id="start-game">Start Game 🎮</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
